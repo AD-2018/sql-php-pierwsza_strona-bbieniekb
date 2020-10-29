@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli("mysql-bbieniekb.alwaysdata.net","bbieniekb","20ZAQHauswsx02","bbieniekb_baza");
+$conn = new mysqli("mysql-bbieniekb.alwaysdata.net","bbieniekb","dorsz1234","bbieniekb_baza");
 $sql = "SELECT * FROM pracownicy";
 $wynik = mysqli_query($conn, $sql);
 
