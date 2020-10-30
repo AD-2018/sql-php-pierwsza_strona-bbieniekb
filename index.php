@@ -1,11 +1,6 @@
 <?php
 
 $conn = new mysqli("mysql-bbieniekb.alwaysdata.net","bbieniekb","dorsz1234","bbieniekb_baza");
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-
 $sql = "SELECT * FROM pracownicy";
 $wynik = mysqli_query($conn, $sql);
 
