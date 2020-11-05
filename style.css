@@ -11,3 +11,23 @@ table, th, td {
 table {
   border-collapse: collapse;
 }
+  
+  }
+th {
+  background-color: rgb(131, 122, 0);
+  color: white;
+  height: 70px;
+}
+.button {
+  background-color: rgb(131, 122, 0);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
