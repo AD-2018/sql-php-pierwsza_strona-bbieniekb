@@ -5,7 +5,7 @@
 </head>
 <body>
 <link href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">ok</a>
-    <h1>Imie nazwisko nr dzi</h1>
+    <h1>Bartosz Bieniek 2</h1>
 <?php
 
 $conn = new mysqli("mysql-bbieniekb.alwaysdata.net","bbieniekb","dorsz1234","bbieniekb_baza");
