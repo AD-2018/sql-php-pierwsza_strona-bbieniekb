@@ -16,10 +16,10 @@
 </html>
 
 <?php
-$servername = "mysql-radeckikacper.alwaysdata.net";
-$username = "217137";
-$password = "Niedlapsa1";
-$dbname = "radeckikacper_mysql";
+$servername = "mysql-bbieniekb.alwaysdata.net";
+$username = "bbieniekb";
+$password = "dorsz1234";
+$dbname = "bbieniekb_baza";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 echo("<br>Zad 1 <br>");
