@@ -10,7 +10,7 @@
     <a href="index.php">Pracownicy</a>
     <a href="orgPracownicy.php">Pracownicy i Organizacja</a></br>
     <a href="funcAgregujace.php">Funkcje agregujące</a></br>
-    <h3>Kacper Radecki</h3>
+    <h3>Bartosz Bieniek</h3>
 </div>
 </body>
 </html>
