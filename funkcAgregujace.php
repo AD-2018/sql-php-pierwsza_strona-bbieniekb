@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">GitHub</a></br>
+    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">GitHub</a></br>
 <div class="nav">
     <a href="index.php">Pracownicy</a>
     <a href="orgPracownicy.php">Pracownicy i Organizacja</a></br>
@@ -15,10 +15,10 @@
 </body>
 </html>
 <?php
-$servername = "mysql-radeckikacper.alwaysdata.net";
-$username = "217137";
-$password = "Niedlapsa1";
-$dbname = "radeckikacper_mysql";
+$servername = "mysql-bbieniekb.alwaysdata.net";
+$username = "bbieniekb";
+$password = "dorsz1234";
+$dbname = "bbieniekb_baza";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 echo("<br>Zad 1 <br>");
