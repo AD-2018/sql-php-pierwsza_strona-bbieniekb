@@ -8,6 +8,7 @@
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">Github</a><br/>
     <a href="orgPracownicy.php">Pracownicy i Organizacja </a>
     <a href="funkcAgregujace.php">Funkcje Agregujace</a><br/>
+    <a href="dataczas.php">Data i czas</a><br/>
     </div>
 <?php
 echo("Jestem tutaj: <br>Data i Czas</br>");
