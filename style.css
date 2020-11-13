@@ -1,3 +1,17 @@
 body {
   background-color: rgba(252, 186, 3, 0.877);
 }
+a {
+    margin-left: 1rem;
+    font-weight: 500;
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+    background-color: pink;
+    border-radius: 4em;
+    width: 4em;
+}
+a:hover{
+  background-color: green;
+  padding: 1em;
+}
