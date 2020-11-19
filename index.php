@@ -7,6 +7,9 @@
        <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
        <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
     </div>
+     <br/>
+        <a href="formularz.html">Formularz</a></br>
+    <br/>
     <h1>Bartosz Bieniek nr 2</h1>
 </head>
 <body>
