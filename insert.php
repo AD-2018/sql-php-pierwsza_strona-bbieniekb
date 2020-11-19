@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
+$servername = "mysql-bbieniekb.alwaysdata.net";
+$username = "bbieniekb";
+$password = "dorsz1234";
+$dbname = "bbieniekb_baza";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
