@@ -2,23 +2,34 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
+    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">Github</a></br>
+    <br/>
+    <br/>
+    <div>
+       <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
+        <br/>
+        <br/>
+       <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
+        <br/>
+        <br/>
+        <a href="data.php">Data i Czas</a></br>
+    <br/>
+    <br/>
+        <a href="formularz.html">Formularz</a></br>
+    <br/>
+    </div>
+    <h1>Bartosz Bieniek nr 2</h1>
 </head>
 <body>
-
-<div class="nav">
-    <a class="link" href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">GitHub</a>
-    <a class="link" href="index.php">Pracownicy</a>
-    <a class="link" href="orgPracownicy.php">Pracownicy i Organizacja</a>
-    <a class="link" href="funcAgregujace.php">Funkcje agregujące</a>
-    <a class="link" href="data.php">Data i Czas</a>
-    <a class="link" href="formularz.html">Formularz </a> 
-    <h3>Bartosz Bieniek</h3>
-</div>
-</body>
 </html>
 
 <?php
-require_once("lib.php");
+$servername = "mysql-bbieniekb.alwaysdata.net";
+$username = "bbieniekb";
+$password = "dorsz1234";
+$dbname = "bbieniekb_baza";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 echo("<br>Zad 1 <br>");
 $sql = "select imie ,YEAR(CURDATE())-YEAR(data_urodzenia) as wiek, nazwa_dzial from pracownicy, organizacja where id_org=dzial";
@@ -287,6 +298,7 @@ echo('<table border="1">');
 echo('</table>');
 
 echo("<h3>Formatowanie</h3>");
+
 
 echo("<br>Zad 1 <br>");
 $sql = "SELECT *, DATE_FORMAT(data_urodzenia,'%W-%m-%Y') from pracownicy, organizacja where id_org=dzial";
