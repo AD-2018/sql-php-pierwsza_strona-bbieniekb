@@ -3,13 +3,30 @@
 <head>
 <link rel="stylesheet" href="style.css">
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">Github</a></br>
+    <br/>
+    <br/>
     <div>
        <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
+        <br/>
+        <br/>
        <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
-    </div>
-     <br/>
+        <br/>
+        <br/>
+        <a href="data.php">Data i Czas</a></br>
+    <br/>
+    <br/>
         <a href="formularz.html">Formularz</a></br>
     <br/>
+<br/>
+        <a href="insert.php">insert</a></br>
+    <br/>
+<br/>
+        <a href="danedobazy.html">Dane do Bazy</a></br>
+    <br/>
+<br/>
+        <a href="delete.php">Delete</a></br>
+    <br/>
+    </div>
     <h1>Bartosz Bieniek nr 2</h1>
 </head>
 <body>
