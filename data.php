@@ -6,17 +6,10 @@
     <br/>
     <br/>
     <div>
-       <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
-        <br/>
-        <br/>
-       <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
-        <br/>
-        <br/>
-        <a href="data.php">Data i Czas</a></br>
-    <br/>
-    <br/>
-        <a href="formularz.html">Formularz</a></br>
-    <br/>
+     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">GitHub</a></br>
+  <div class="buttons">
+    <a class="btn effect01" href="index.php">Główna</a></br>
+    <h3>Bartosz Bieniek</h3>
     </div>
     <h1>Bartosz Bieniek nr 2</h1>
 </head>
