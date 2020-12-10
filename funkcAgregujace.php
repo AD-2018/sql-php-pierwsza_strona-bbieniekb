@@ -6,10 +6,8 @@
 <body>
 
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">GitHub</a></br>
-<div class="nav">
-    <a href="index.php">Pracownicy</a>
-    <a href="orgPracownicy.php">Pracownicy i Organizacja</a></br>
-    <a href="funkcAgregujace.php">Funkcje agregujące</a></br>
+  <div class="buttons">
+    <a class="btn effect01" href="index.php">Główna</a></br>
     <h3>Bartosz Bieniek</h3>
 </div>
 </body>
