@@ -1,5 +1,3 @@
-body {
-  background-color: rgba(252, 186, 3, 0.877);
 }
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 * {
@@ -99,3 +97,5 @@ ul li:nth-child(3):hover span{
 ul li:nth-child(4):hover span{
   background: #FCEB00 !important;
 }
+body {
+  background-color: rgba(252, 186, 3, 0.877);
