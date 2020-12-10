@@ -2,29 +2,29 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">Github</a></br>
     <br/>
     <br/>
-    <div>
-       <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
+    <div class="buttons">
+    <a class="btn effect01" href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">Github</a></br>
+       <a class="btn effect01" href="orgPracownicy.php">organizacjaPracownicy</a><br/>
         <br/>
         <br/>
-       <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
+       <a class="btn effect01" href="funkcAgregujace.php">funkcjeAgregujace</a><br/>
         <br/>
         <br/>
-        <a href="data.php">Data i Czas</a></br>
+        <a class="btn effect01" href="data.php">Data i Czas</a></br>
     <br/>
     <br/>
-        <a href="formularz.html">Formularz</a></br>
+        <a class="btn effect01" href="formularz.html">Formularz</a></br>
     <br/>
 <br/>
-        <a href="insert.php">insert</a></br>
+        <a class="btn effect01" href="insert.php">insert</a></br>
     <br/>
 <br/>
-        <a href="danedobazy.html">Dane do Bazy</a></br>
+        <a class="btn effect01" href="danedobazy.html">Dane do Bazy</a></br>
     <br/>
 <br/>
-        <a href="delete.php">Delete</a></br>
+        <a class="btn effect01" href="delete.php">Delete</a></br>
     <br/>
     </div>
     <h1>Bartosz Bieniek nr 2</h1>
