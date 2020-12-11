@@ -7,7 +7,6 @@
     <a class="btn effect01" href="index.php">Główna</a></br>
     <h3>Bartosz Bieniek</h3>
 </div>
-    <h1>Bartosz Bieniek nr 2</h1>
 </head>
 <body>
 <?php
