@@ -10,7 +10,21 @@
 </head>
 <body>
 <?php
-   require_once("lib.php");
+  $servername = "mysql-bbieniekb.alwaysdata.net";
+$username = "bbieniekb";
+$password = "dorsz1234";
+$dbname = "bbieniekb_baza";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+$sql = "SELECT imie FROM pracownicy where dzial=2";
+    echo("zadanie 1");
+    echo($sql);
+$wynik = mysqli_query($conn, $sql);
+
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
 
 echo ("<br>Autorzy<br>");
 $sql = "SELECT * FROM bibl_autor";
