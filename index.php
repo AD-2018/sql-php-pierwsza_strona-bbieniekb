@@ -26,6 +26,10 @@
 <br/>
         <a class="btn effect01" href="delete.php">Delete</a></br>
     <br/>
+<br/>
+<br/>
+        <a class="btn effect01" href="ksiazki.php">Ksiazki</a></br>
+    <br/>
     </div>
     <h1>Bartosz Bieniek nr 2</h1>
 </head>
