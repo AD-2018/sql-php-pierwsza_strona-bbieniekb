@@ -2,13 +2,12 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">Github</a></br>
     <br/>
     <br/>
-    <div>
-     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">GitHub</a></br>
-  <div class="buttons">
-    <a class="btn effect01" href="index.php">Główna</a></br>
+    <div class="buttons">
+    <a class="btn effect01" href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">Github</a></br>
+       <a class="btn effect01" href="index.php">Główna</a><br/>
+        <br/>
     <h3>Bartosz Bieniek</h3>
     </div>
     <h1>Bartosz Bieniek nr 2</h1>
