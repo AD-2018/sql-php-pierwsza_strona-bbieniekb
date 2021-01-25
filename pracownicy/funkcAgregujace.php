@@ -7,7 +7,7 @@
 
 <div class="buttons">
     <a class="btn effect01" href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">Github</a></br>
-       <a class="btn effect01" href="index.php">Główna</a><br/>
+       <a class="btn effect01" href="/index.php">Główna</a><br/>
         <br/>
     <h3>Bartosz Bieniek</h3>
 </div>
