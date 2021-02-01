@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <h1>Bartosz Bieniek nr 2</h1>
+</head>
+<body>
+
 <link rel="stylesheet" href="/style.css">
     <br/>
     <br/>
@@ -31,9 +35,7 @@
         <a class="btn effect01" href="biblioteka/ksiazki.php">Ksiazki</a></br>
     <br/>
     </div>
-    <h1>Bartosz Bieniek nr 2</h1>
-</head>
-<body>
+    
 <?php
 $servername = "mysql-bbieniekb.alwaysdata.net";
 $username = "bbieniekb";
