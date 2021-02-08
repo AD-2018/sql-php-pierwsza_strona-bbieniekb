@@ -27,7 +27,6 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
 
-<?php
 echo ("<br>Autorzy<br>");
 $sql = "SELECT * FROM bibl_autor";
 echo ("<li>".$sql);
