@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="style.css">
    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">GitHub</a></br>
   <div class="buttons">
-    <a class="btn effect01" href="index.php">Główna</a></br>
+    <a class="btn effect01" href="/index.php">Główna</a></br>
 <?php
   $servername = "mysql-bbieniekb.alwaysdata.net";
 $username = "bbieniekb";
