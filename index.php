@@ -34,6 +34,9 @@
 <br/>
         <a class="btn effect01" href="biblioteka/ksiazki.php">Ksiazki</a></br>
     <br/>
+    <br/>
+        <a class="btn effect01" href="gridcss/">Ksiazki</a></br>
+    <br/>
     
     </div>
     
