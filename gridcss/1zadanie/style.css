@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
+    grid-template-areas: 
+    "a d e"
+    "a c e"
+    "a b e"; }
+    header {
+        background-color: rgb(185, 0, 0);
+        grid-area: a;
+        height: 100vh;
+    }
+    nav {
+        background-color: rgb(199, 199, 0);
+        grid-area: b;
+        height: 33vh;
+    }
+    main {
+        background-color: rgb(95, 189, 247);
+        grid-area: c;
+        height: 33vh;
+    }
+    aside {
+        background-color: rgb(255, 140, 159);
+        grid-area: e;
+    }
+    footer {
+        background-color: rgb(86, 155, 86);
+        grid-area: d;
+        height: 33vh;
+    }
