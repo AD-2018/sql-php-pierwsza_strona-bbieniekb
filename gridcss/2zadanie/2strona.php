@@ -49,7 +49,7 @@
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
      }
     echo('<table border="1">');
-        echo('<th>id</th><th>lekarz</th><th>Uczeń</th>');
+        echo('<th>id</th><th>lekarz</th><th>pacjent</th>');
         while($row=mysqli_fetch_assoc($result)){
             echo('<tr>');
             echo('<td>'.$row['id'].'</td><td>'.$row['pacjent'].'</td><td>'.$row['lekarz'].'</td>');
