@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css">
-    <title>Grid</title>
+    <title>CSS Grid</title>
   </head>
   <body>
     <div class="container">
@@ -39,7 +40,7 @@
       <main>
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT id, Nauczyciel, uczen FROM nauczyciele, szkola, uczniowie where nauczyciele.id=szkola.nauczyciele_id and uczniowie.id=szkola.uczniowie_id";
+    $sql = "SELECT id, Nauczyciel, nazwisko FROM nauczyciele, szkola, Uczen where nauczyciele.id=szkola.nauczyciele_id and Uczen.id=szkola.uczen_id";
     echo("<br>");
     echo($sql);
     $result = mysqli_query($conn, $sql);
@@ -52,7 +53,7 @@
         echo('<th>Id</th><th>Nauczyciel</th><th>Uczeń</th>');
         while($row=mysqli_fetch_assoc($result)){
             echo('<tr>');
-            echo('<td>'.$row['id'].'</td><td>'.$row['uczen'].'</td><td>'.$row['Nauczyciel'].'</td>');
+            echo('<td>'.$row['id'].'</td><td>'.$row['nazwisko'].'</td><td>'.$row['Nauczyciel'].'</td>');
             echo('</tr>');
      }
         echo('</table>');
@@ -75,10 +76,10 @@
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
      }
     echo('<table border="1">');
-        echo('<th>Id</th><th>uczniowie</th>');
+        echo('<th>Id</th><th>Uczen</th>');
         while($row=mysqli_fetch_assoc($result)){
             echo('<tr>');
-            echo('<td>'.$row['id'].'</td><td>'.$row['uczniowie'].'</td>');
+            echo('<td>'.$row['id'].'</td><td>'.$row['Uczen'].'</td>');
             echo('</tr>');
      }
         echo('</table>');
