@@ -39,7 +39,7 @@
       <main>
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT id, Nauczyciel, nazwisko FROM nauczyciele, szkola, Uczen where nauczyciele.id=szkola.nauczyciele_id and Uczen.id=szkola.uczen_id";
+    $sql = "SELECT id, Nauczyciel, nazwisko FROM nauczyciele, szkola, Uczen where nauczyciele.id=szkola.nauczyciele_id and Uczen.id=szkola.Uczen_id";
     echo("<br>");
     echo($sql);
     $result = mysqli_query($conn, $sql);
@@ -65,7 +65,7 @@
       <div class="tabela1">
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT * FROM uczen";
+    $sql = "SELECT * FROM Uczen";
     echo("<br>");
     echo($sql);
     $result = mysqli_query($conn, $sql);
