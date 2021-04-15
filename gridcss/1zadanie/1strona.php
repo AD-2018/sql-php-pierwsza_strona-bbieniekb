@@ -13,8 +13,8 @@
       <?php
 require_once("../../lib.php");
 
-echo("<br>ROLE<br>");
-$sql = "SELECT * FROM rola";
+echo("<br>nauczyciele<br>");
+$sql = "SELECT * FROM nauczyciele";
 echo($sql);
 
 $result = mysqli_query($conn, $sql);
@@ -25,11 +25,11 @@ if ( $result) {
     }
 
 echo('<table border="1">');
-    echo('<th>ID</th><th>Rola</th>');
+    echo('<th>ID</th><th>nauczyciele</th>');
 
     while($row=mysqli_fetch_assoc($result)){
         echo('<tr>');
-        echo('<td>'.$row['id'].'</td><td>'.$row['rola'].'</td>');
+        echo('<td>'.$row['id'].'</td><td>'.$row['nauczyciele'].'</td>');
         echo('</tr>');
     }
 
