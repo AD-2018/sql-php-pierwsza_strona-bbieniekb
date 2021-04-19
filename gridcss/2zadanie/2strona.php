@@ -8,6 +8,9 @@
     <title>Bieniek</title>
   </head>
   <body>
+  <div class = "nav">
+    <?php include_once("../../menu.php"); ?>
+    </div>
     <div class="container">
       <header>
       <div class="tabela1">

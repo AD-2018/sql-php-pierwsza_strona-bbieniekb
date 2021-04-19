@@ -5,41 +5,8 @@
 </head>
 <body>
 
-<link rel="stylesheet" href="/style.css">
-    <br/>
-    <br/>
-    <div class="buttons">
-    <a class="btn effect01" href="https://github.com/AD-2018/sql-php-pierwsza_strona-bbieniekb">Github</a></br>
-       <a class="btn effect01" href="pracownicy/orgPracownicy.php">organizacjaPracownicy</a><br/>
-        <br/>
-        <br/>
-       <a class="btn effect01" href="pracownicy/funkcAgregujace.php">funkcjeAgregujace</a><br/>
-        <br/>
-        <br/>
-        <a class="btn effect01" href="pracownicy/data.php">Data i Czas</a></br>
-    <br/>
-    <br/>
-        <a class="btn effect01" href="pracownicy/formularz.html">Formularz</a></br>
-    <br/>
-<br/>
-        <a class="btn effect01" href="pracownicy/insert.php">insert</a></br>
-    <br/>
-<br/>
-        <a class="btn effect01" href="pracownicy/danedobazy.html">Dane do Bazy</a></br>
-    <br/>
-<br/>
-        <a class="btn effect01" href="pracownicy/delete.php">Delete</a></br>
-    <br/>
-<br/>
-<br/>
-        <a class="btn effect01" href="biblioteka/ksiazki.php">Ksiazki</a></br>
-    <br/>
-    <br/>
-        <a class="btn effect01" href="gridcss/">Grid</a></br>
-    <br/>
-    
-    </div>
-    
+<?php include("menu.php");?>
+
 <?php
 $servername = "mysql-bbieniekb.alwaysdata.net";
 $username = "bbieniekb";
