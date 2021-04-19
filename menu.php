@@ -1,6 +1,6 @@
     <link rel="stylesheet" href="/style.css">
     
-    <div class="buttons">
+    <div class="menu">
         <ul>
     <li><a class="btn effect01" href="/index.php">Strona Główna</a></li>
 
