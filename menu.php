@@ -1,8 +1,10 @@
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     
-    <div class="menu">
+    <div class="buttons">
         <ul>
     <li><a class="btn effect01" href="/index.php">Strona Główna</a></li>
+
+    <li><a class="btn effect01" href="/pracownicy/data.php">Data</a></li>
 
     <li><a class="btn effect01" href="/gridcss/1zadanie/1strona.php">Strona 1</a></li>
         
