@@ -1,5 +1,5 @@
+<link rel="stylesheet" href="style.css">
 <div class="menu">
-
         <br/>
     <br/>
     <div class="buttons">
